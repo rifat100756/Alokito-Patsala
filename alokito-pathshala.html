@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আলোকিত পাঠশালা</title>
+  <style>
+    body {
+      font-family: 'Siyam Rupali', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0056b3;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #003d80;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .exam-link {
+      background-color: #fff3cd;
+      padding: 20px;
+      border: 1px solid #ffeeba;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: 20px auto;
+      text-align: center;
+    }
+    .exam-link a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #ffc107;
+      color: #000;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .exam-link a:hover {
+      background-color: #e0a800;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>আলোকিত পাঠশালা</h1>
+    <p>শিক্ষার আলোয় আলোকিত হোক প্রতিটি প্রাণ</p>
+  </header>
+
+  <nav>
+    <a href="#">হোম</a>
+    <a href="#about">আমাদের সম্পর্কে</a>
+    <a href="#courses">কোর্সসমূহ</a>
+    <a href="#register">রেজিস্ট্রেশন</a>
+    <a href="#exam">পরীক্ষা</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>আমাদের সম্পর্কে</h2>
+      <p>আলোকিত পাঠশালা একটি অনলাইন এবং অফলাইন ভিত্তিক কোচিং সেন্টার যা শ্রেণি ৬ থেকে ১০ পর্যন্ত বিজ্ঞান ও সাধারণ বিষয়ের ওপর গাইডলাইন এবং ক্লাস প্রদান করে।</p>
+    </section>
+
+    <section id="courses">
+      <h2>আমাদের কোর্সসমূহ</h2>
+      <ul>
+        <li>বিজ্ঞান ক্লাস (৬-১০)</li>
+        <li>বাংলা, ইংরেজি ও গণিত</li>
+        <li>মডেল টেস্ট ও প্রশ্নোত্তর পর্ব</li>
+      </ul>
+    </section>
+
+    <section id="register">
+      <h2>রেজিস্ট্রেশন করুন</h2>
+      <form>
+        <label for="name">নাম:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="class">শ্রেণি:</label>
+        <input type="text" id="class" name="class" required>
+
+        <label for="phone">ফোন নম্বর:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">আপনার বার্তা:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">জমা দিন</button>
+      </form>
+    </section>
+
+    <section id="exam" class="exam-link">
+      <h2>অনলাইন পরীক্ষা</h2>
+      <p>নিচের লিংকে ক্লিক করে অনলাইন পরীক্ষায় অংশগ্রহণ করুন:</p>
+      <a href="https://example.com/exam" target="_blank">পরীক্ষায় অংশ নিন</a>
+    </section>
+
+    <section id="contact">
+      <h2>যোগাযোগ করুন</h2>
+      <p>ফোন: ০১XXXXXXXXX</p>
+      <p>ইমেইল: alokito@pathshala.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; ২০২৫ আলোকিত পাঠশালা. সর্বস্বত্ব সংরক্ষিত।</p>
+  </footer>
+</body>
+</html>
